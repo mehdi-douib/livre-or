@@ -1,0 +1,129 @@
+
+.jumbotron{
+  height: 100vh ;
+  
+  
+}
+
+.erreur_ins{
+  color:red;
+}
+
+.comm tr td{
+  border: 1px solid black;
+  
+}
+.bodyinscription{
+  display:flex;
+  flex-direction: column;
+ 
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.boite_ins {
+  width: 600px;
+  background-color: rgb(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid white;
+  border-radius: 30px; 
+}
+.main_ins{
+  display: flex;
+  /* height: auto; */
+  height: 92vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+  
+
+}
+.form_ins {
+  background-color: rgb(0, 0, 0, 0.01);
+  color: white;
+  width: 500px;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.form_ins article  {
+  margin-top: 10px;
+}
+.form_ins input {
+  font-family: 'Courier New', Courier, monospace;
+  font:1em;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+.pseudo_ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.pseudo_ins label {
+  text-align: center;
+  padding-bottom: 3px;
+
+}
+.mp_ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.mp_ins label {
+  text-align: center;
+  padding-bottom: 3px;
+}
+.firstName_ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.firstName_ins label {
+  text-align: center;
+  padding-bottom: 3px;
+}
+.lastName_ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lastName_ins label {
+  text-align: center;
+  padding-bottom: 3px;
+}
+.button_ins {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: aqua;
+}
+.button_ins label {
+  text-align: center;
+  padding-bottom: 3px;
+  
+}
+
+
+  .footer_ins {
+    height: 15vh;
+    width: auto;
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+.livre{
+  background-image:url(images/istockphoto-873507500-612x612.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover
+}
